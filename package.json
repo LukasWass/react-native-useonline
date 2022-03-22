@@ -1,0 +1,51 @@
+{
+	"name": "react-native-useonline",
+	"version": "1.0.0",
+	"description": "React Native online status hook",
+	"main": "./lib/index.js",
+	"types": "./lib",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LukasWass/react-native-useonline/issues"
+	},
+	"homepage": "https://github.com/LukasWass/react-native-useonline#readme",
+	"keywords": [],
+	"scripts": {
+		"build": "tsc",
+		"test": "jest",
+		"publish": "npm run build && npm publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LukasWass/react-native-useonline.git"
+	},
+	"author": {
+		"name": "Lukas Wass",
+		"email": "dev@lukaswass.se",
+		"url": "https://github.com/LukasWass"
+	},
+	"dependencies": {
+		"@react-native-community/netinfo": "7.1.3",
+		"react-native-useappstate": "^1.0.4"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.0.3",
+		"@types/react": "~17.0.21",
+		"@types/react-native": "~0.64.12",
+		"jest": "^27.4.2",
+		"react": "17.0.1",
+		"react-native": "0.64.3",
+		"ts-jest": "^27.0.7",
+		"typescript": "^4.5.2"
+	},
+	"jest": {
+		"preset": "ts-jest",
+		"testEnvironment": "node",
+		"transform": {
+			"node_modules/variables/.+\\.(j|t)sx?$": "ts-jest"
+		},
+		"transformIgnorePatterns": [
+			"node_modules/(?!variables/.*)"
+		]
+	}
+}
