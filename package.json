@@ -9,7 +9,15 @@
 		"url": "https://github.com/LukasWass/react-native-useonline/issues"
 	},
 	"homepage": "https://github.com/LukasWass/react-native-useonline#readme",
-	"keywords": [],
+	"keywords": [
+		"react-native",
+		"online",
+		"offline",
+		"internet",
+		"react",
+		"native",
+		"hook"
+	],
 	"scripts": {
 		"build": "tsc",
 		"test": "jest",
