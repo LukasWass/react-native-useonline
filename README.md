@@ -82,9 +82,9 @@ export default App;
 #### Arguments
 - options: ```IOptions { url: string, pingInterval: number }```
 <br>
-```url``` defaults to https://google.com
+``` url ``` defaults to https://google.com
 <br>
-```pingInterval``` defaults to 30000 milliseconds
+``` pingInterval ``` defaults to 30000 milliseconds
 
 #### Returns
 
