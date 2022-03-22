@@ -1,6 +1,6 @@
 {
 	"name": "react-native-useonline",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "React Native online status hook",
 	"main": "./lib/index.js",
 	"types": "./lib",
